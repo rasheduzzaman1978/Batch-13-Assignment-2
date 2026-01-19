@@ -65,7 +65,8 @@
     </div>
 
     <!-- Content -->
-    <div class="relative mx-auto flex max-w-6xl flex-col items-center justify-center px-6 pt-14 pb-20 lg:pt-20 lg:pb-28 text-center">
+    <div
+      class="relative mx-auto flex max-w-6xl flex-col items-center justify-center px-6 pt-14 pb-20 lg:pt-20 lg:pb-28 text-center">
 
       <!-- Circle + Mic -->
       <div class="relative">
@@ -97,17 +98,17 @@
       </p>
 
       <!-- Buttons -->
-      <div class="mt-6 flex flex-row flex-wrap items-center justify-center gap-2">
+      <div class="mt-6 flex flex-row flex-nowrap items-center justify-center gap-2">
 
         <button
-          class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#F8B35B] via-[#FF3CAC] to-[#B003E4] px-4 py-3 text-[16px] font-semibold shadow-md hover:opacity-90 hover:scale-105 transition duration-300">
-          <img src="./assets/spotify.png" alt="Spotify" class="h-5 w-5" />
+          class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#F8B35B] via-[#FF3CAC] to-[#B003E4] px-3 py-2 sm:px-4 sm:py-3 sm:text-[16px] font-semibold shadow-md hover:opacity-90 hover:scale-105 transition duration-300">
+          <img src="./assets/spotify.png" alt="Spotify" class="h-4 w-4 sm:h-5 sm:w-5" />
           Listen on Spotify
         </button>
 
         <button
-          class="inline-flex items-center gap-2 rounded-full border border-[#00ff88] bg-[#1a0b2e]/40 px-6 py-3 text-sm font-semibold text-[#00ff88] hover:bg-[#6d2cff]/20 transition">
-          <img src="./assets/message.png" alt="Message" class="h-[14px] w-[18px]" />
+          class="inline-flex items-center gap-2 rounded-full border border-[#00ff88] bg-[#1a0b2e]/40 px-3 py-2 text-[12px] sm:px-6 sm:py-3 sm:text-sm font-semibold text-[#00ff88] hover:bg-[#6d2cff]/20 transition">
+          <img src="./assets/message.png" alt="Message" class="h-[12px] w-[14px] sm:h-[14px] sm:w-[18px]" />
           Subscribe
         </button>
       </div>
@@ -116,61 +117,153 @@
   </section>
 
 
-   <!-- About Section -->
-<section class="w-full py-12 lg:py-16">
-  <div class="max-w-6xl mx-auto px-6">
+  <!-- About Section -->
 
-    <!-- Heading + Text -->
-    <div class="text-center">
-      <h2 class="text-[32px] lg:text-5xl font-bold mb-4">
-        About The Podcast
-      </h2>
+  <section class="w-full py-12 lg:py-16">
+    <div class="max-w-6xl mx-auto px-6">
 
-      <p class="text-gray-300 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto">
-        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
-        <br class="hidden sm:block" />
-        We break down complex topics into digestible insights, explore productivity strategies that actually work,
-        <br class="hidden sm:block" />
-        and share stories of personal growth from industry leaders.
-        <br /><br />
-        Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
-      </p>
+      <!-- Heading-->
+      <div class="text-center">
+        <h2 class="text-[32px] lg:text-5xl font-bold mb-4">
+          About The Podcast
+        </h2>
+
+        <p class="text-gray-300 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto">
+          TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+          <br class="hidden sm:block" />
+          We break down complex topics into digestible insights, explore productivity strategies that actually work,
+          <br class="hidden sm:block" />
+          and share stories of personal growth from industry leaders.
+          <br /><br />
+          Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+        </p>
+      </div>
+
+
+      <div class="mt-12 lg:mt-16 grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+        <div>
+          <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">150K+</h3>
+          <p class="mt-3 text-xs sm:text-sm lg:text-base text-gray-300 uppercase tracking-widest">
+            Monthly Listeners
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">200+</h3>
+          <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
+            Episodes Published
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">4.9★</h3>
+          <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
+            Average Rating
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">50+</h3>
+          <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
+            Industry Experts
+          </p>
+        </div>
+      </div>
+
     </div>
+  </section>
 
-    <!-- Stats -->
-    <div class="mt-12 lg:mt-16 grid grid-cols-2 lg:grid-cols-4 gap-10 text-center">
-      <div>
-        <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">150K+</h3>
-        <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
-          Monthly Listeners
-        </p>
+  <!-- Why choose Section  -->
+
+  <section class="w-full py-12 lg:py-16 bg-[#230e3d]">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Heading -->
+      <div class="text-center mb-10">
+        <h2 class="text-[28px] sm:text-[32px] lg:text-5xl font-bold">
+          Why Choose TechWave
+        </h2>
       </div>
 
-      <div>
-        <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">200+</h3>
-        <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
-          Episodes Published
-        </p>
-      </div>
+      <!-- Cards Grid -->
+      <div class="grid gap-6 lg:grid-cols-3">
 
-      <div>
-        <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">4.9★</h3>
-        <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
-          Average Rating
-        </p>
-      </div>
+        <!-- Left Big Card -->
+        <div class="flex flex-col justify-center rounded-2xl bg-[#2a0f4d] p-6 lg:row-span-2 shadow-lg">
+          <div class="mb-4">
+            <div class="mb-4">
+              <img src="./assets/headphone.png" alt="Headphone" class="h-[60px] w-[60px]" />
+            </div>
+            <h4 class="text-lg font-semibold">Premium Audio Quality</h4>
+          </div>
 
-      <div>
-        <h3 class="text-[40px] lg:text-5xl font-bold text-[#00ff88]">50+</h3>
-        <p class="mt-3 text-xs sm:text-sm text-gray-300 uppercase tracking-widest">
-          Industry Experts
-        </p>
+          <p class="text-sm lg:text-base text-gray-300 leading-relaxed">
+            Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering.
+            Every episode is mastered for optimal listening across all devices and platforms.
+          </p>
+        </div>
+
+        <!-- Right Top Card 1 -->
+        <div class="flex flex-col justify-center rounded-2xl bg-[#2a0f4d] p-6 lg:col-span-2 shadow-lg">
+          <div class="mb-4">
+            <div class="mb-4">
+              <img src="./assets/device.png" alt="Device" class="h-[60px] w-[60px]" />
+            </div>
+            <h4 class="text-lg font-semibold">Mobile Friendly</h4>
+          </div>
+
+          <p class="text-sm lg:text-base text-gray-300 leading-relaxed">
+            Listen on the go with seamless mobile experience and offline downloads.
+          </p>
+        </div>
+
+        <!-- Right Top Card 2 -->
+        <div class="flex flex-col justify-center rounded-2xl bg-[#2a0f4d] p-6 lg:col-span-2 shadow-lg">
+          <div class="mb-4">
+            <div class="mb-4">
+              <img src="./assets/location.png" alt="Location" class="h-[60px] w-[60px]" />
+            </div>
+            <h4 class="text-lg font-semibold">Global Community</h4>
+          </div>
+
+          <p class="text-sm lg:text-base text-gray-300 leading-relaxed">
+            Connect with tech enthusiasts from over 120 countries worldwide.
+          </p>
+        </div>
+
+        <!-- Bottom Left Wide Card -->
+        <div class="flex flex-col justify-center rounded-2xl bg-[#2a0f4d] p-6 shadow-lg lg:col-span-2">
+          <div class="mb-4">
+            <div class="mb-4">
+              <img src="./assets/resource.png" alt="Interview" class="h-[60px] w-[60px]" />
+            </div>
+            <h4 class="text-lg font-semibold">Exclusive Interviews</h4>
+          </div>
+
+          <p class="text-sm lg:text-base text-gray-300 leading-relaxed">
+            Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
+            exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and
+            success strategies.
+          </p>
+        </div>
+
+        <!-- Bottom Right Card -->
+        <div class="flex flex-col justify-center rounded-2xl bg-[#2a0f4d] p-6 shadow-lg">
+          <div class="mb-4">
+            <div class="mb-4">
+              <img src="./assets/resource.png" alt="Resource" class="h-[60px] w-[60px]" />
+            </div>
+            <h4 class="text-lg font-semibold">Rich Resources</h4>
+          </div>
+
+          <p class="text-sm lg:text-base text-gray-300 leading-relaxed">
+            Access show notes, transcripts, and additional learning materials for every episode.
+          </p>
+        </div>
+
       </div>
     </div>
-
-  </div>
-</section>
-
+  </section>
 
 </body>
 
